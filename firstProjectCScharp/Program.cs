@@ -6,11 +6,12 @@ namespace firstProjectCScharp
     {
         public static void Main(string[] args)
         {
-            var hello = "Hello";
-            var c = 234;
-
-            Console.WriteLine(hello.GetType().ToString()); 
-            Console.WriteLine(c.GetType().ToString());
+            int r;
+            int a = Convert.ToInt32(Console.ReadLine());
+   
+            r = a * a;
+            r = r * r;
+            Console.WriteLine(r);
         }
     }
 }
