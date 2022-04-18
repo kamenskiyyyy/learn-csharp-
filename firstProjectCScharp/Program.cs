@@ -6,13 +6,11 @@ namespace firstProjectCScharp
     {
         public static void Main(string[] args)
         {
-            float a = 3.14f;
-            float b = 3.4345f;
+            var hello = "Hello";
+            var c = 234;
 
-            decimal d = 3.434m;
-            uint c = 34u;
-            long e = 324561;
-            ulong f = 243526ul;
+            Console.WriteLine(hello.GetType().ToString()); 
+            Console.WriteLine(c.GetType().ToString());
         }
     }
 }
